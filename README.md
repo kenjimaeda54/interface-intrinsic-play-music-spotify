@@ -127,3 +127,12 @@ class ViewController: UIViewController {
 
 
 ```
+
+## Screen Shot
+
+![Screen](https://github.com/kenjimaeda54/interface-intrinsic-play-music-spotify/blob/develop/Screen%20Shot%202022-07-16%20at%2012.57.15.png)
+
+
+
+
+
