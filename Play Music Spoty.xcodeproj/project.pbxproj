@@ -13,6 +13,7 @@
 		81FEC3C72882D94200F2860F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FEC3C52882D94200F2860F /* Main.storyboard */; };
 		81FEC3C92882D94300F2860F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FEC3C82882D94300F2860F /* Assets.xcassets */; };
 		81FEC3CC2882D94300F2860F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FEC3CA2882D94300F2860F /* LaunchScreen.storyboard */; };
+		81FEC3D62882DBA600F2860F /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEC3D52882DBA600F2860F /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		81FEC3C82882D94300F2860F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81FEC3CB2882D94300F2860F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81FEC3CD2882D94300F2860F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FEC3D52882DBA600F2860F /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		81FEC3BE2882D94200F2860F /* Play Music Spoty */ = {
 			isa = PBXGroup;
 			children = (
+				81FEC3D52882DBA600F2860F /* Factories.swift */,
 				81FEC3BF2882D94200F2860F /* AppDelegate.swift */,
 				81FEC3C12882D94200F2860F /* SceneDelegate.swift */,
 				81FEC3C32882D94200F2860F /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				81FEC3C42882D94200F2860F /* ViewController.swift in Sources */,
 				81FEC3C02882D94200F2860F /* AppDelegate.swift in Sources */,
+				81FEC3D62882DBA600F2860F /* Factories.swift in Sources */,
 				81FEC3C22882D94200F2860F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
