@@ -38,17 +38,24 @@ func makeImage (_ image: String ) -> UIImageView {
 
 ```swift
 
+//
+//  ViewController.swift
+//  Play Music Spoty
+//
+//  Created by kenjimaeda on 16/07/22.
+//
+
 import UIKit
 
 class ViewController: UIViewController {
 	
-  override func viewDidLoad() {
+	override func viewDidLoad() {
 		super.viewDidLoad()
 		setupView()
-  }
+	}
 	
-  func setupView() {
-                //mesmo nome que esta no arquivo de imagem
+	func setupView() {
+		//mesmo nome que esta no arquivo de imagem
 		let albumImg = makeImage("rush")
 		let titleAlbum = makeLabel("Tom Sawyer", .black, 18,.center)
 		let descriptionAlbum = makeLabel("Rush . Moving Pictures (2011 Remaster)", .gray,14,.center)
@@ -116,6 +123,7 @@ class ViewController: UIViewController {
 	}
 	
 }
+
 
 
 ```
